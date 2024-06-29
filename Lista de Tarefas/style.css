@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #343a40; /* Cor de fundo mais escura */
+    color: #fff; /* Cor do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #495057; /* Cor de fundo do contêiner */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    max-width: 90%;
+    text-align: center;
+}
+
+h1 {
+    color: #fff; /* Cor do título */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ced4da; /* Cor de fundo do input */
+    color: #343a40; /* Cor do texto do input */
+    margin-right: 10px;
+}
+
+input[type="text"]::placeholder {
+    color: #6c757d; /* Cor do placeholder do input */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Cor do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838; /* Cor do botão ao passar o mouse */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px; /* Altura máxima da lista */
+    overflow-y: auto; /* Adiciona barra de rolagem vertical quando necessário */
+}
+
+li {
+    background-color: #6c757d; /* Cor de fundo do item da lista */
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.delete-button {
+    background-color: #dc3545; /* Cor do botão de excluir */
+    color: #fff; /* Cor do texto do botão de excluir */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Cor do botão de excluir ao passar o mouse */
+}
+
+.edit-button {
+    background-color: #007bff; /* Cor do botão de editar */
+    color: #fff; /* Cor do texto do botão de editar */
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #0056b3; /* Cor do botão de editar ao passar o mouse */
+}

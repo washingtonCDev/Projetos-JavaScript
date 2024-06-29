@@ -1,0 +1,100 @@
+body{
+    background: #e5e5e5;
+    color: #25282b;
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;           
+}
+
+.hide {
+    display: none;
+}
+
+a {
+    color: #0984e3;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+#container {
+    width: 80%;
+    max-width: 980px;
+
+    margin: 40px auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+p, .descriotion {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+#intro {
+    width: 300px;
+
+    margin-right: 65px;
+}
+
+main {
+    margin: 32px 0;
+}
+
+footer {
+    margin-top: 70px;
+    text-align: center;
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+
+    color: #25282b;
+}
+
+footer a {
+    opacity: 0.7;
+    text-decoration: none;
+    color: #0984e3;
+}
+
+#button a:hover {
+    text-decoration: none;
+    background-color: #0984e3;
+}
+
+.ideias {
+    display: flex;
+    
+    background-color: #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px -8px black;
+    padding: 32px;
+
+
+    margin-bottom: 32px;
+}
+
+.ideias img {
+    width: 60px;
+    height: 60px;
+
+    margin-right: 32px;
+}
+
+.ideias h3 {
+    margin: 0;
+}
+
+.ideias p {
+    margin: 8px 0;
+    color: #777;
+}
+
+.ideias .descriotion {
+    margin: 16px 0;
+}
